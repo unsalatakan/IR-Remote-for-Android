@@ -1,0 +1,58 @@
+<vector android:height="91.14915dp" android:viewportHeight="233"
+    android:viewportWidth="409" android:width="160dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M342.67,205.07H65.93c-21.27,0 -38.52,-17.25 -38.52,-38.52V66.4c0,-21.27 17.25,-38.52 38.52,-38.52h276.74c21.27,0 38.52,17.25 38.52,38.52v100.15C381.19,187.82 363.94,205.07 342.67,205.07z"
+        android:strokeColor="#000000" android:strokeWidth="4"/>
+    <path android:fillColor="#FF8A90" android:pathData="M122.29,171.08"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#FF8A90" android:pathData="M122.65,68.56"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000" android:pathData="M143.54,68.34"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000" android:pathData="M122.65,68.34"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M119.07,174.14" android:strokeColor="#FF5F68"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#FF8A90" android:pathData="M285.98,62.36"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000" android:pathData="M265.08,62.14"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000" android:pathData="M285.98,62.14"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#FF8A90" android:pathData="M287.9,171.89"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#FF8A90" android:pathData="M287.55,69.37"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000" android:pathData="M266.65,69.15"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000" android:pathData="M287.55,69.15"
+        android:strokeColor="#FF5F68" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M267.05,171.89" android:strokeColor="#FF5F68"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M287.93,171.89" android:strokeColor="#FF5F68"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="9"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M119.07,68.34h166.91v91.13h-166.91z"
+        android:strokeColor="#000000" android:strokeWidth="4"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M160.86,165.14L244.18,165.14"
+        android:strokeColor="#000000" android:strokeWidth="3"/>
+    <path android:fillColor="#00000000"
+        android:pathData="M187.24,161.45L217.9,161.45"
+        android:strokeColor="#000000" android:strokeWidth="5"/>
+    <path android:fillColor="#FF3F60" android:pathData="M226.09,114.17l-36.82,21.26c-1.58,0.91 -3.55,-0.23 -3.55,-2.05V90.87c0,-1.82 1.97,-2.96 3.55,-2.05l36.82,21.26C227.67,110.98 227.67,113.26 226.09,114.17z"/>
+</vector>

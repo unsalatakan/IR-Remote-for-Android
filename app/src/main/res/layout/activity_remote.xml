@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/powerbutton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/ic_power"
+        android:text=""
+        android:layout_marginRight="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mutebutton"
+        android:background="@drawable/ic_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/powerbutton" />
+
+    <ImageButton
+        android:id="@+id/buttonone"
+        android:background="@drawable/ic_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Button"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/mutebutton"
+        app:layout_constraintStart_toStartOf="@+id/mutebutton"
+        app:layout_constraintTop_toBottomOf="@+id/mutebutton" />
+
+    <ImageButton
+        android:id="@+id/buttontwo"
+        android:background="@drawable/ic_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/buttonthree"
+        app:layout_constraintStart_toEndOf="@+id/buttonone"
+        app:layout_constraintTop_toTopOf="@+id/buttonone" />
+
+    <ImageButton
+        android:id="@+id/buttonthree"
+        android:background="@drawable/ic_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/powerbutton"
+        app:layout_constraintStart_toStartOf="@+id/powerbutton"
+        app:layout_constraintTop_toTopOf="@+id/buttontwo" />
+
+    <ImageButton
+        android:id="@+id/buttonfour"
+        android:background="@drawable/ic_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttonone"
+        app:layout_constraintStart_toStartOf="@+id/buttonone"
+        app:layout_constraintTop_toBottomOf="@+id/buttonone" />
+
+    <ImageButton
+        android:id="@+id/buttonfive"
+        android:background="@drawable/ic_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttontwo"
+        app:layout_constraintStart_toStartOf="@+id/buttontwo"
+        app:layout_constraintTop_toTopOf="@+id/buttonfour" />
+
+    <ImageButton
+        android:id="@+id/buttonsix"
+        android:background="@drawable/ic_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttonthree"
+        app:layout_constraintStart_toStartOf="@+id/buttonthree"
+        app:layout_constraintTop_toTopOf="@+id/buttonfive" />
+
+    <ImageButton
+        android:id="@+id/buttonseven"
+        android:background="@drawable/ic_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttonfour"
+        app:layout_constraintStart_toStartOf="@+id/buttonfour"
+        app:layout_constraintTop_toBottomOf="@+id/buttonfour" />
+
+    <ImageButton
+        android:id="@+id/buttoneight"
+        android:background="@drawable/ic_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttonfive"
+        app:layout_constraintStart_toStartOf="@+id/buttonfive"
+        app:layout_constraintTop_toTopOf="@+id/buttonseven" />
+
+    <ImageButton
+        android:id="@+id/button13"
+        android:background="@drawable/ic_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttonsix"
+        app:layout_constraintStart_toStartOf="@+id/buttonsix"
+        app:layout_constraintTop_toTopOf="@+id/buttoneight" />
+
+    <ImageButton
+        android:id="@+id/buttonbackspace"
+        android:background="@drawable/ic_backspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttonseven"
+        app:layout_constraintStart_toStartOf="@+id/buttonseven"
+        app:layout_constraintTop_toBottomOf="@+id/buttonseven" />
+
+    <ImageButton
+        android:id="@+id/buttonzero"
+        android:background="@drawable/ic_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttoneight"
+        app:layout_constraintStart_toStartOf="@+id/buttoneight"
+        app:layout_constraintTop_toTopOf="@+id/buttonbackspace" />
+
+    <ImageButton
+        android:id="@+id/buttonspace"
+        android:background="@drawable/ic_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/button13"
+        app:layout_constraintStart_toStartOf="@+id/button13"
+        app:layout_constraintTop_toTopOf="@+id/buttonzero" />
+
+    <ImageButton
+        android:id="@+id/buttonvolumeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_volume_up"
+        app:layout_constraintEnd_toEndOf="@+id/buttonbackspace"
+        app:layout_constraintStart_toStartOf="@+id/buttonbackspace"
+        app:layout_constraintTop_toBottomOf="@+id/buttonbackspace" />
+
+    <ImageButton
+        android:id="@+id/buttonvolumedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_volume_down"
+        app:layout_constraintEnd_toEndOf="@+id/buttonvolumeup"
+        app:layout_constraintStart_toStartOf="@+id/buttonvolumeup"
+        app:layout_constraintTop_toBottomOf="@+id/buttonvolumeup" />
+
+
+    <ImageButton
+        android:id="@+id/buttonsettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_settings"
+        app:layout_constraintEnd_toEndOf="@+id/buttonvolumedown"
+        app:layout_constraintStart_toStartOf="@+id/buttonvolumedown"
+        app:layout_constraintTop_toBottomOf="@+id/buttonvolumedown" />
+
+    <ImageButton
+        android:id="@+id/buttonhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonchminus"
+        app:layout_constraintEnd_toStartOf="@+id/buttonspace"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toEndOf="@+id/buttonvolumeup"
+        app:layout_constraintTop_toBottomOf="@+id/buttonbackspace" />
+
+    <ImageButton
+        android:id="@+id/buttonchplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_chplus"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonvolumeup"
+        app:layout_constraintEnd_toEndOf="@+id/buttonspace"
+        app:layout_constraintStart_toStartOf="@+id/buttonspace"
+        app:layout_constraintTop_toBottomOf="@+id/buttonspace" />
+
+    <ImageButton
+        android:id="@+id/buttonchminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_chminus"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonvolumedown"
+        app:layout_constraintEnd_toEndOf="@+id/buttonchplus"
+        app:layout_constraintStart_toStartOf="@+id/buttonchplus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonchplus" />
+
+    <ImageButton
+        android:id="@+id/buttonpointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_pointer"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonsettings"
+        app:layout_constraintEnd_toEndOf="@+id/buttonspace"
+        app:layout_constraintStart_toStartOf="@+id/buttonspace"
+        app:layout_constraintTop_toBottomOf="@+id/buttonvolumedown" />
+
+    <ImageButton
+        android:id="@+id/buttonup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_up"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonsettings"
+        app:layout_constraintEnd_toStartOf="@+id/buttonpointer"
+        app:layout_constraintStart_toEndOf="@+id/buttonsettings"
+        app:layout_constraintTop_toBottomOf="@+id/buttonvolumedown" />
+
+    <ImageButton
+        android:id="@+id/buttonleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_left"
+        app:layout_constraintEnd_toEndOf="@+id/buttonsettings"
+        app:layout_constraintStart_toStartOf="@+id/buttonsettings"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsettings"
+        app:layout_constraintBottom_toTopOf="@id/buttonreturn"/>
+
+    <ImageButton
+        android:id="@+id/buttonright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_right"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsource"
+        app:layout_constraintEnd_toEndOf="@+id/buttonpointer"
+        app:layout_constraintStart_toStartOf="@+id/buttonpointer"
+        app:layout_constraintTop_toBottomOf="@+id/buttonpointer" />
+
+    <ImageButton
+        android:id="@+id/buttonok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_ok"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonleft"
+        app:layout_constraintEnd_toEndOf="@+id/buttonright"
+        app:layout_constraintStart_toStartOf="@+id/buttonleft"
+        app:layout_constraintTop_toTopOf="@+id/buttonleft" />
+
+    <ImageButton
+        android:id="@+id/buttondown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_down"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonok"
+        app:layout_constraintStart_toStartOf="@+id/buttonok"
+        app:layout_constraintTop_toBottomOf="@+id/buttonok" />
+
+    <ImageButton
+        android:id="@+id/buttonreturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_resource_return"
+        app:layout_constraintEnd_toEndOf="@+id/buttonleft"
+        app:layout_constraintStart_toStartOf="@+id/buttonleft"
+        app:layout_constraintTop_toBottomOf="@+id/buttonok" />
+
+    <ImageButton
+        android:id="@+id/buttonsource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_source"
+        app:layout_constraintEnd_toEndOf="@+id/buttonright"
+        app:layout_constraintStart_toStartOf="@+id/buttonright"
+        app:layout_constraintTop_toTopOf="@+id/buttondown" />
+
+    <ImageButton
+        android:id="@+id/buttonlivetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_livetv"
+        app:layout_constraintEnd_toEndOf="@+id/buttondown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonreturn" />
+
+    <ImageButton
+        android:id="@+id/buttoncast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_cast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/buttondown"
+        app:layout_constraintTop_toBottomOf="@+id/buttonreturn" />
+
+    <ImageButton
+        android:id="@+id/buttonappstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_appstore"
+        app:layout_constraintEnd_toEndOf="@+id/buttonlivetv"
+        app:layout_constraintStart_toStartOf="@+id/buttonlivetv"
+        app:layout_constraintTop_toBottomOf="@+id/buttonlivetv" />
+
+    <ImageButton
+        android:id="@+id/buttontvplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_tvplay"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncast"
+        app:layout_constraintStart_toStartOf="@+id/buttoncast"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncast" />
+
+    <ImageButton
+        android:id="@+id/buttonaudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_audio"
+        app:layout_constraintStart_toStartOf="@+id/buttonappstore"
+        app:layout_constraintTop_toBottomOf="@+id/buttonappstore" />
+
+    <ImageButton
+        android:id="@+id/buttonsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_sub"
+        app:layout_constraintStart_toEndOf="@+id/buttonaudio"
+        app:layout_constraintTop_toBottomOf="@+id/buttonappstore" />
+
+    <ImageButton
+        android:id="@+id/buttonrec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_rec"
+        app:layout_constraintStart_toEndOf="@+id/buttonsub"
+        app:layout_constraintTop_toBottomOf="@+id/buttontvplay" />
+
+    <ImageButton
+        android:id="@+id/buttonrecall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_recall"
+        app:layout_constraintEnd_toEndOf="@+id/buttontvplay"
+        app:layout_constraintStart_toEndOf="@+id/buttonrec"
+        app:layout_constraintTop_toBottomOf="@+id/buttontvplay" />
+
+    <ImageButton
+        android:id="@+id/buttonstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_stop"
+        app:layout_constraintStart_toStartOf="@+id/buttonaudio"
+        app:layout_constraintTop_toBottomOf="@+id/buttonaudio" />
+
+    <ImageButton
+        android:id="@+id/buttonforward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_forward"
+        app:layout_constraintEnd_toEndOf="@+id/buttontvplay"
+        app:layout_constraintStart_toEndOf="@+id/buttonbackward"
+        app:layout_constraintTop_toBottomOf="@+id/buttonrecall" />
+
+    <ImageButton
+        android:id="@+id/buttonbackward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_forwardx"
+        app:layout_constraintStart_toEndOf="@+id/buttonsub"
+        app:layout_constraintTop_toBottomOf="@+id/buttonrec" />
+
+    <ImageButton
+        android:id="@+id/buttonplaypause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_playpause"
+        app:layout_constraintStart_toEndOf="@+id/buttonaudio"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsub" />
+
+    <ImageButton
+        android:id="@+id/buttonblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_blue"
+        app:layout_constraintEnd_toEndOf="@+id/buttontvplay"
+        app:layout_constraintStart_toEndOf="@+id/buttonyellow"
+        app:layout_constraintTop_toBottomOf="@+id/buttonforward" />
+
+    <ImageButton
+        android:id="@+id/buttonyellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_yellow"
+        app:layout_constraintStart_toEndOf="@+id/buttongreen"
+        app:layout_constraintTop_toBottomOf="@+id/buttonbackward" />
+
+    <ImageButton
+        android:id="@+id/buttonred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_red"
+        app:layout_constraintStart_toStartOf="@+id/buttonstop"
+        app:layout_constraintTop_toBottomOf="@+id/buttonstop" />
+
+    <ImageButton
+        android:id="@+id/buttongreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_green"
+        app:layout_constraintStart_toEndOf="@+id/buttonaudio"
+        app:layout_constraintTop_toBottomOf="@+id/buttonplaypause" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
